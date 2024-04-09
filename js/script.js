@@ -16,7 +16,7 @@ const nameTxt = document.getElementById("nameTxt")
 const nextBtn = document.getElementById("nextBtn")
 const nameElement = document.getElementById("name")
 const inputGroup = document.getElementById("inputGroup")
-const audio = new Audio("../audio/takbiran.mp3")
+const audio = new Audio("audio/takbiran.mp3")
 
 nextBtn.addEventListener("click", function() {
 	if(nameTxt.value == "") {
