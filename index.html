@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="img/ramadan.png">
+		<title>Happy Eid Mubarak 1445H</title>
+		<meta property="og:title" content="Happy Eid Mubarak 1445H" />
+		<meta property="og:description" content="Selamat Idul Fitri! Semoga kesucian dan kebahagiaan menyertai setiap langkah kita." />
+		<meta property="og:image" content="img/bg.jpg" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/output.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body class="scroll-smooth">
+
+		<div id="inputGroup" class="p-4 w-72 bg-white mx-auto my-12 rounded-lg shadow-lg">
+			<div class="flex items-center border-b border-teal-500 py-2">
+				<input id="nameTxt" class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Masukkan nama...." aria-label="Full name" autofocus>
+				<button id="nextBtn" class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
+					Lanjut
+				</button>
+			</div>
+		</div>
+
+		<div class="flex flex-wrap-reverse justify-center items-center gap-4 translate-y-12 opacity-0" id="section">
+			<div class="flex flex-wrap items-center justify-center">
+				<div class="container max-w-4xl bg-slate-100 rounded-xl shadow-2xl m-0 sm:m-12">
+					<div class="h-80 sm:h-96 overflow-hidden rounded-t-xl">
+						<img class="rounded-t w-full h-full object-cover object-center" src="img/bg2.jpeg" alt="Photo By Simon Infanger on Unsplash">
+					</div>
+					<div class="flex justify-center px-5 -mt-20 sm:-mt-24 mb-5">
+						<span class="block h-48 w-48 sm:h-44 sm:w-44">
+							<img class="mx-auto object-cover rounded-full bg-slate-100 p-3" src="img/happy.gif" alt="Nafis Fadhil">
+						</span>
+					</div>
+					<div class="px-12 py-6 mb-8">
+						<h1 class="text-6xl sm:text-8xl font-bold text-center text-green-800 mb-8 font-almarai">عيد مبارك</h1>
+						<h2 class="text-2xl sm:text-4xl font-bold text-center text-green-800 leading-8">Happy Eid Mubarak, <span id="name">${nama}</span></h2>
+						<p class="text-xl sm:text-2xl text-slate-700 text-center italic mt-5">Selamat Idul Fitri! Semoga kesucian dan kebahagiaan menyertai setiap langkah kita. Maafkan segala khilaf dan kekurangan. Taqabbalallahu minna wa minkum, mohon maaf lahir dan batin!.</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>

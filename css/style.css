@@ -1,0 +1,8 @@
+#section {
+	transition: .6s all ease-out;
+}
+
+body {
+	background: rgb(135,255,179);
+	background: radial-gradient(circle, rgba(135,255,179,1) 0%, rgba(102,255,132,1) 100%);
+}
